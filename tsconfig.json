@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@app/*": [
+        "./app/*"
+      ],
+      "@core/*": [
+        "./app/core/*"
+      ],
+      "@users/*": [
+        "./app/users/*"
+      ],
+      "@chargebox/*": [
+        "./app/chargebox/*"
+      ],
+      "@transactions/*": [
+        "./app/transactions/*"
+      ],
+      "@vehicles/*": [
+        "./app/vehicles/*"
+      ],
+      "@dashboard/*": [
+        "./app/dashboard/*"
+      ],
+      "@errors/*": [
+        "./app/errors/*"
+      ],
+      "@ocppserver/*": [
+        "./app/ocppserver/*"
+      ]
+    },
+    "strict": false,
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/core/infrastructure/ui/components/UITabs.tsj"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

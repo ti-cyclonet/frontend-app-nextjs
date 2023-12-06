@@ -1,0 +1,47 @@
+.connector-block {
+    padding: 10px;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.chargebox-header{
+    --bs-chargebox-bg: transparent;
+    --bs-chargebox-padding-x: 1rem;
+    --bs-chargebox-padding-y: 1rem;
+    --bs-chargebox-margin-bottom: 1rem;
+    --bs-chargebox-color: inherit;
+    --bs-chargebox-border-color: transparent;
+    --bs-chargebox-border: 1px solid var(--bs-chargebox-border-color);
+    --bs-chargebox-border-radius: 0.375rem;
+    position: relative;
+    padding: var(--bs-chargebox-padding-y) var(--bs-chargebox-padding-x);
+    margin-bottom: var(--bs-chargebox-margin-bottom);
+    color: var(--bs-chargebox-color);
+    background-color: var(--bs-chargebox-bg);
+    border: var(--bs-chargebox-border);
+    border-radius: var(--bs-chargebox-border-radius);
+}
+
+.chargebox-header h2{
+    --bs-chargebox-color: #FFF;
+    color: var(--bs-chargebox-color);    
+}
+
+.chargebox-available {
+    --bs-chargebox-color: #FFF;
+    --bs-chargebox-bg: #008000;
+    --bs-chargebox-border-color: #badbcc;
+}
+
+.chargebox-offline h2{
+    --bs-chargebox-color: #FFF;
+    color: var(--bs-chargebox-color);    
+}
+
+.chargebox-offline {
+    --bs-chargebox-color: #FFF;
+    --bs-chargebox-bg: #cccccc;
+}

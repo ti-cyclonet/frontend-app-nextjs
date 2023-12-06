@@ -1,0 +1,359 @@
+[
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Preparing",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOIII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Available",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOIII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Available",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOIII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      }
+    ]
+  },
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Faulted",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Faulted",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Available",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      }
+    ]
+  },
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Faulted",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMO",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Faulted",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMO",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Offline",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMO",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      }
+    ]
+  },
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Charging",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOV",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Faulted",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOV",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Offline",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOV",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      }
+    ]
+  },
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Charging",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVI",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "80"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Faulted",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVI",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Available",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVI",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "N/A"
+      }
+    ]
+  },
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Charging",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Finishing",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "30"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Reserved",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      }
+    ]
+  },
+  {
+    "charge_box_id": "Env01 - Ch01",
+    "charge_box_alias": "Env01 - Ch01",
+    "connectors": [
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F46",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17569,
+        "connector_id": 1,
+        "status": "Charging",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F47",
+        "charge_box_pk": 2,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17571,
+        "connector_id": 2,
+        "status": "Available",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "30"
+      },
+      {
+        "charge_box_alias": "Env01 - Ch01",
+        "connector_alias": "F48",
+        "charge_box_pk": 3,
+        "charge_box_id": "Env01 - Ch01",
+        "connector_pk": 17573,
+        "connector_id": 2,
+        "status": "Available",
+        "error_code": "NoError",
+        "error_info": "",
+        "fuun_name": "ZMOVII",
+        "vendor_error_code": "",
+        "max_timestamp": "2023-07-21T14:26:04.000Z",
+        "soc": "60"
+      }
+    ]
+  }
+]

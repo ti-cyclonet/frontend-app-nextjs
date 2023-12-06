@@ -1,0 +1,197 @@
+:root {
+  --available: #C2D62D;
+  --charging: #1BCCC0;
+  --faulted: #D90416;
+  --offline: #E9ECEF;
+  --inactive: #FFC107;
+  --active-focus: #007BFF;
+  --hover-focus: #a6c9272d;
+  --blue-030: #7092be;
+  --while-linear-g: rgba(255, 255, 255, 0.5);
+}
+
+/* backgrounds -------------------------------------- */
+.text-available {
+  color: var(--available);
+}
+
+.text-available-int {
+  background: var(--available) !important;
+  background-image: -webkit-linear-gradient(0deg,
+      var(--while-linear-g) 25%,
+      transparent 25%,
+      transparent 50%,
+      var(--while-linear-g) 50%,
+      var(--while-linear-g) 75%,
+      transparent 75%,
+      transparent) !important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  /* padding: 0.2rem; */
+  border: 2px solid var(--bs-white) !important;
+}
+
+.text-charging {
+  color: var(--charging);
+}
+
+.text-charging-int {
+  background: var(--charging) !important;
+  background-image: -webkit-linear-gradient(0deg,
+      var(--while-linear-g) 25%,
+      transparent 25%,
+      transparent 50%,
+      var(--while-linear-g) 50%,
+      var(--while-linear-g) 75%,
+      transparent 75%,
+      transparent) !important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  /* padding: 0.2rem; */
+  border: 2px solid var(--bs-white) !important;
+}
+
+.text-error {
+  color: var(--faulted);
+}
+
+.text-faulted {
+  color: var(--faulted);
+}
+
+.text-offline {
+  color: var(--offline);
+}
+
+.text-inactive {
+  color: var(--inactive);
+}
+
+.text-blue-030 {
+  color: var(--blue-030);
+}
+
+.text-active-focus {
+  color: linear-gradient(357deg, #021D7C 6.55%, #0572E3 95.28%);
+}
+
+
+/* backgrounds -------------------------------------- */
+
+.bg-available {
+  background-color: var(--available) !important;
+}
+
+.bg-available {
+  background-color: var(--available) !important;
+}
+
+.bg-charging {
+  background-color: var(--charging) !important;
+}
+
+.bg-error {
+  background-color: var(--faulted) !important;
+}
+
+.bg-faulted {
+  background-color: var(--faulted) !important;
+}
+
+.bg-offline {
+  background-color: var(--offline) !important;
+}
+
+.bg-inactive {
+  background-color: var(--inactive) !important;
+}
+
+.bg-blue-030 {
+  background-color: #dfe8f5 !important;
+}
+
+.bg-active-focus {
+  background: var(--active-focus) !important;
+  background-color: var(--active-focus);
+}
+
+.int {
+  background-image: -webkit-repeating-linear-gradient(0deg,
+      var(--while-linear-g),
+      var(--while-linear-g) 1%,
+      transparent 1%,
+      transparent 2%,
+      var(--while-linear-g) 2%,
+      transparent 4px) !important;
+}
+
+
+/* border -------------------------------------- */
+
+.border-available {
+  border: 3px solid var(--available) !important;
+}
+
+.border-charging {
+  border: 3px solid var(--charging) !important;
+}
+
+.border-error {
+  border: 3px solid var(--faulted) !important;
+}
+
+.border-faulted {
+  border: 3px solid var(--faulted) !important;
+}
+
+.border-offline {
+  border: 3px solid var(--offline) !important;
+}
+
+.border-inactive {
+  border: 3px solid var(--inactive) !important;
+}
+
+.border-active-focus {
+  border: 3px solid var(--active-focus) !important;
+}
+
+
+/* min-width -------------------------------------- */
+
+.min-width-ch {
+  min-width: 117.16px;
+}
+
+.min-width-charging {
+  min-width: 172.5px;
+}
+
+/* btn -------------------------------------- */
+
+.btnc {
+  border-radius: 6px;
+  color: var(--bs-black);
+  background-color: var(--bs-white);
+  &.custom-btn {
+    width: fit-content;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.btnc:hover {
+  cursor: pointer;
+  background: var(--hover-focus);
+}
+
+.btnhov:hover {
+  cursor: pointer;
+  border: 2px solid var(--hover-focus) !important;
+  background: var(--hover-focus);
+}

@@ -1,0 +1,133 @@
+.chargebox {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.ch-available {
+  border: 3px solid var(--green);
+  box-shadow: 0px 1.67792px 5.03377px 0px rgba(13, 10, 44, 0.08);
+}
+
+.ch-charging {
+  border: 3px solid var(--blue);
+  box-shadow: 0px 1.67792px 5.03377px 0px rgba(13, 10, 44, 0.08);
+}
+
+.ch-error {
+  border: 3px solid var(--red);
+  box-shadow: 0px 1.67792px 5.03377px 0px rgba(13, 10, 44, 0.08);
+}
+
+.chargebox-title {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 16.779px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.chargebox-title:hover {
+  cursor: pointer;
+}
+
+.indicator {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.indicator:hover {
+  cursor: pointer;
+}
+
+.in-available {
+  background: linear-gradient(180deg, #A5C927 0%, #17ad37 100%);
+}
+
+.in-charging {
+  background: linear-gradient(180deg, #57C9F6 0%, #2152ff 100%);
+}
+
+.in-error {
+  background: linear-gradient(180deg, #E91C1E 0%, #ea0606 100%);
+}
+
+.container-buttons {
+  width: 400px;
+  border-radius: 8px;
+  background: #ebeff4;
+  margin: 10px 6px 20px;
+  padding: 5px;
+}
+
+.custom-button {
+  border-radius: 8px;
+  height: 45px;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  background: #dfdfdf;
+}
+
+.active-button {
+  background: linear-gradient(357deg, #021d7c 6.55%, #0572e3 95.28%);
+  box-shadow: 0px 2.22565px 6.67696px 0px rgba(13, 10, 44, 0.08);
+  color: white;
+}
+
+.full-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.chargebox-charging-container {
+  background: #dfdfdf;
+  border: 3px solid #dfdfdf;
+  padding: 10px 20px;
+}
+
+.connector-charging-container {
+  background: white;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 5px !important;
+}
+
+.ch-border {
+  border: 3px solid #dfdfdf;
+  background: #dfdfdf;
+}
+
+/* 
+-- Procurar no afectar estilos globales, en clases genericas, porfavor.
+.progress-bar {
+  background: linear-gradient(180deg, #A5C927 0%, #17ad37 100%);
+} */
+
+.indicators-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.indicators-column {
+  text-align: center;
+}
+
+.principal-chart {
+  width: 89%;
+  margin: auto;
+}
+
+.limit-chart {
+  position: absolute !important;
+  top: -6px;
+  width: 100%;
+}

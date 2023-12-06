@@ -1,0 +1,70 @@
+.success-state {
+  background: #008000;
+}
+
+.error-state {
+  background: #FF0000;
+}
+
+.info-state {
+  background: #32C0CC;
+}
+
+.unknow-state {
+  background: #aaa;
+}
+
+.bg-static {
+  background-color: #f2f2f3!important;
+}
+
+.connector-header{
+  --bs-connectorhd-bg: transparent;
+  --bs-connectorhd-padding-x: 1rem;
+  --bs-connectorhd-padding-y: 1rem;
+  --bs-connectorhd-margin-bottom: 1rem;
+  --bs-connectorhd-color: inherit;  
+  --bs-connectorhd-border-radius: 0.375rem;
+  --bs-connectorhd-border: 1px solid var(--bs-connectorhd-border-color);
+  position: relative;
+  padding: var(--bs-connectorhd-padding-y) var(--bs-connectorhd-padding-x);
+  margin-bottom: var(--bs-connectorhd-margin-bottom);
+  color: var(--bs-connectorhd-color);
+  background-color: var(--bs-connectorhd-bg);
+  border: var(--bs-connectorhd-border);
+  border-radius: var(--bs-connectorhd-border-radius);
+}
+
+.connector-header h2{
+  --bs-connectorhd-color: inherit;
+  color: var(--bs-connectorhd-color);    
+}
+
+.connector-available {
+  --bs-connectorhd-color: #FFF;
+  --bs-connectorhd-bg: #008000;
+  --bs-connectorhd-border-color: #008000;;
+}
+
+.connector-available > h2 {
+  --bs-connectorhd-color: #FFF;
+}
+
+.connector-charging {
+  --bs-connectorhd-color: #FFF;
+  --bs-connectorhd-bg: #32C0CC;
+  --bs-connectorhd-border-color: #32C0CC;;
+}
+
+.connector-charging > h2 {
+  --bs-connectorhd-color: #FFF;
+}
+
+.connector-offline {
+  --bs-connectorhd-color: #FFF;
+  --bs-connectorhd-bg: #cccccc;
+}
+
+.connector-offline > h2 {
+  --bs-connectorhd-color: #FFF;
+}

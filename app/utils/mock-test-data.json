@@ -1,0 +1,270 @@
+{
+  "unidades": [
+    {
+      "id": "1",
+      "nombre": "Unidad #1",
+      "cargadores": [
+        {
+          "id": 1,
+          "nombre": "Env01 - Ch01",
+          "estatus": "Cargando",
+          "conectores": [
+            {
+              "id": "1",
+              "nombre": "Ch01-Cn01",
+              "estatus": "Cargando",
+              "carga": 20,
+              "whats": 0.012
+            },
+            {
+              "id": "2",
+              "nombre": "Ch01-Cn02",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "3",
+              "nombre": "Ch01-Cn03",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        },
+        {
+          "id": 2,
+          "nombre": "Env01 - Ch02",
+          "estatus": "Cargando",
+          "conectores": [
+            {
+              "id": "4",
+              "nombre": "Ch02-Cn01",
+              "estatus": "Disponible",
+              "carga": 20,
+              "whats": 0.012
+            },
+            {
+              "id": "5",
+              "nombre": "Ch02-Cn02",
+              "estatus": "Cargando",
+              "carga": 50,
+              "whats": 0.009
+            },
+            {
+              "id": "6",
+              "nombre": "Ch02-Cn03",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        },
+        {
+          "id": 3,
+          "nombre": "Env01 - Ch03",
+          "estatus": "Disponible",
+          "conectores": [
+            {
+              "id": "7",
+              "nombre": "Ch03-Cn01",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "8",
+              "nombre": "Ch03-Cn02",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "9",
+              "nombre": "Ch03-Cn03",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "10",
+              "nombre": "Ch03-Cn04",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        },
+        {
+          "id": 4,
+          "nombre": "Env02 - Ch04",
+          "estatus": "Cargando",
+          "conectores": [
+            {
+              "id": "11",
+              "nombre": "Ch04-Cn01",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "12",
+              "nombre": "Ch04-Cn02",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "13",
+              "nombre": "Ch04-Cn03",
+              "estatus": "Cargando",
+              "carga": 5,
+              "whats": 0.005
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Unidad #2",
+      "cargadores": [
+        {
+          "id": 1,
+          "nombre": "Env20 - Ch01",
+          "estatus": "Cargando",
+          "conectores": [
+            {
+              "id": "1",
+              "nombre": "Ch01-Cn01",
+              "estatus": "Cargando",
+              "carga": 20,
+              "whats": 0.012
+            },
+            {
+              "id": "2",
+              "nombre": "Ch01-Cn02",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "3",
+              "nombre": "Ch01-Cn03",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        },
+        {
+          "id": 2,
+          "nombre": "Env20 - Ch02",
+          "estatus": "Cargando",
+          "conectores": [
+            {
+              "id": "4",
+              "nombre": "Ch02-Cn01",
+              "estatus": "Disponible",
+              "carga": 20,
+              "whats": 0.012
+            },
+            {
+              "id": "5",
+              "nombre": "Ch02-Cn02",
+              "estatus": "Cargando",
+              "carga": 50,
+              "whats": 0.009
+            },
+            {
+              "id": "6",
+              "nombre": "Ch02-Cn03",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        },
+        {
+          "id": 3,
+          "nombre": "Env20 - Ch03",
+          "estatus": "Disponible",
+          "conectores": [
+            {
+              "id": "7",
+              "nombre": "Ch03-Cn01",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "8",
+              "nombre": "Ch03-Cn02",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "9",
+              "nombre": "Ch03-Cn03",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "10",
+              "nombre": "Ch03-Cn04",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        },
+        {
+          "id": 4,
+          "nombre": "Env21 - Ch04",
+          "estatus": "Cargando",
+          "conectores": [
+            {
+              "id": "11",
+              "nombre": "Ch04-Cn01",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "12",
+              "nombre": "Ch04-Cn02",
+              "estatus": "Disponible",
+              "carga": 0,
+              "whats": 0
+            },
+            {
+              "id": "13",
+              "nombre": "Ch04-Cn03",
+              "estatus": "Cargando",
+              "carga": 5,
+              "whats": 0.005
+            }
+          ],
+          "error_code": "NoError",
+          "error_info": "Sin Error"
+        }
+      ]
+    }
+  ]
+}

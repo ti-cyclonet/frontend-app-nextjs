@@ -1,0 +1,11 @@
+.Spreadsheet__table {
+    width: 100% !important;
+}
+
+th {
+    pointer-events: none;
+}
+
+.card-min-content {
+    min-width: min-content !important;
+}

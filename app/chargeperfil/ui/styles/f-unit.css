@@ -1,0 +1,55 @@
+.functional-unit-wrapper {
+    flex-shrink: 0;
+    border-radius: 7px;
+    padding: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  > .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > .name {
+      color: #000;
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+    }
+    > .item {
+      > .title {
+        color: rgba(0, 0, 0, 0.55);
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.422px;
+      }
+      > .value {
+        text-align: center;
+        color: #000;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.422px;
+      }
+    }
+  }
+  > .body {
+    margin-top: 40px;
+    > .table {
+        margin-top: 20px;
+    }
+  }
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}

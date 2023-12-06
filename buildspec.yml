@@ -1,0 +1,26 @@
+version: 0.2
+
+run-as: root
+  
+phases:
+  install:
+    commands:
+      - pip install git-remote-codecommit
+      - git --version
+      - ls -ltra
+
+  build:
+    commands: 
+#        - git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/aos-greenmovil-frontend-app-nextjs
+        #- cd aos-greenmovil-frontend-app-nextjs
+        - aws configure set aws_access_key_id ${AK}
+        - aws configure set aws_secret_access_key ${SAK}
+        - aws configure set default.region ${REGION}
+        - aws configure list
+        - git remote set-url origin codecommit://aos-greenmovil-frontend-app-nextjs-amplify
+        - git remote -v
+        - git push -f origin DEV:trunk
+
+  post_build:
+      commands:
+        - git status codecommit::us-east-1://aos-greenmovil-frontend-app-nextjs-amplify
